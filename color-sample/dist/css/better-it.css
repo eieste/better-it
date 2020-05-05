@@ -1,0 +1,357 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+* {
+  font-family: "ubuntu"; }
+
+section {
+  min-height: 100vh;
+  min-width: 100vw; }
+
+.bg-dark {
+  background-color: #000015;
+  color: #DEDEDE; }
+  .bg-dark h1 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h1:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-dark h2 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h2:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-dark h3 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h3:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-dark h4 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h4:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-dark h5 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h5:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-dark h6 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-dark h6:after {
+      content: '\A';
+      white-space: pre; }
+
+div.bg-dark, span.bg-dark {
+  padding: 10px 10px 5px 10px;
+  margin: 20px 0 0 0;
+  display: block; }
+
+.bg-light {
+  background-color: #DEDEDE;
+  color: #000015; }
+  .bg-light h1 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h1:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-light h2 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h2:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-light h3 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h3:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-light h4 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h4:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-light h5 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h5:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-light h6 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-light h6:after {
+      content: '\A';
+      white-space: pre; }
+
+div.bg-light, span.bg-light {
+  padding: 10px 10px 5px 10px;
+  margin: 20px 0 0 0;
+  display: block; }
+
+.bg-good {
+  background-color: #35742B;
+  color: #DEDEDE; }
+  .bg-good h1 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h1:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-good h2 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h2:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-good h3 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h3:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-good h4 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h4:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-good h5 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h5:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-good h6 {
+    background-color: #000015;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #DEDEDE; }
+    .bg-good h6:after {
+      content: '\A';
+      white-space: pre; }
+
+div.bg-good, span.bg-good {
+  padding: 10px 10px 5px 10px;
+  margin: 20px 0 0 0;
+  display: block; }
+
+.bg-bad {
+  background-color: #850000;
+  color: #DEDEDE; }
+  .bg-bad h1 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h1:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-bad h2 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h2:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-bad h3 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h3:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-bad h4 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h4:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-bad h5 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h5:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-bad h6 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-bad h6:after {
+      content: '\A';
+      white-space: pre; }
+
+div.bg-bad, span.bg-bad {
+  padding: 10px 10px 5px 10px;
+  margin: 20px 0 0 0;
+  display: block; }
+
+.bg-neutral {
+  background-color: #0077A4;
+  color: #DEDEDE; }
+  .bg-neutral h1 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h1:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-neutral h2 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h2:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-neutral h3 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h3:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-neutral h4 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h4:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-neutral h5 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h5:after {
+      content: '\A';
+      white-space: pre; }
+  .bg-neutral h6 {
+    background-color: #DEDEDE;
+    marign-right: 10px auto 10px 0;
+    padding: 5px 120px 5px 10px;
+    display: inline;
+    position: relative;
+    color: #000015; }
+    .bg-neutral h6:after {
+      content: '\A';
+      white-space: pre; }
+
+div.bg-neutral, span.bg-neutral {
+  padding: 10px 10px 5px 10px;
+  margin: 20px 0 0 0;
+  display: block; }
+
+/*# sourceMappingURL=better-it.css.map */

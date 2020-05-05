@@ -1,0 +1,50 @@
+@import "variables.scss";
+
+// General
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+
+
+
+
+// Itterate over all available Colors
+@each $name, $item in $color-list {
+
+  // Create a simple class that defines this color
+  .bg-#{$name}{
+    background-color: map-get($item, "color");
+    color: map-get(map-get($color-list, map-get($item, "text")), "color");
+
+    // If the bg contains a headline create it in contrast
+    @each $heading in h1, h2, h3, h4, h5, h6 {
+      #{$heading} {
+        // Helper variable
+        $contrast: map-get($color-list, map-get($item, "contrast"));
+        background-color: map-get($contrast, "color");
+        marign-right: 10px auto 10px 0;
+        padding: 5px 120px 5px 10px;
+        display: inline;
+        position: relative;
+        color: map-get(map-get($color-list, map-get($contrast, "text")), "color");
+
+        // Linebreak after Headline
+        &:after {
+          content: '\A';
+          white-space: pre;
+        }
+      }
+    }
+  }
+
+
+  // better text styling
+  div.bg-#{$name}, span.bg-#{$name} {
+    padding: 10px 10px 5px 10px;
+    margin: 20px 0 0 0;
+    display: block;
+  }
+
+}
